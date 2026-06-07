@@ -172,3 +172,568 @@
 [0] Health: http://localhost:4000/api/v1/health
 [0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
 [0] SQLite tables initialized.
+[0] 8:01:02 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cnode:internal/modules/run_main:107
+[0]     triggerUncaughtException(
+[0]     ^
+[0] 
+[0] Error: Transform failed with 1 error:
+[0] C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts:181:14: ERROR: Expected ")" but found "CREATE"
+[0]     at failureErrorWithLog (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1748:15)
+[0]     at C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1017:50
+[0]     at responseCallbacks.<computed> (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:884:9)
+[0]     at handleIncomingPacket (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:939:12)
+[0]     at Socket.readFromStdout (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:862:7)
+[0]     at Socket.emit (node:events:508:28)
+[0]     at addChunk (node:internal/streams/readable:563:12)
+[0]     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+[0]     at Readable.push (node:internal/streams/readable:394:5)
+[0]     at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+[0]   name: 'TransformError'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:01:04 pm [tsx] change in ./src\utils\db.ts Rerunning...
+[0] cnode:internal/modules/run_main:107
+[0]     triggerUncaughtException(
+[0]     ^
+[0] 
+[0] Error: Transform failed with 1 error:
+[0] C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts:181:14: ERROR: Expected ")" but found "CREATE"
+[0]     at failureErrorWithLog (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1748:15)
+[0]     at C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1017:50
+[0]     at responseCallbacks.<computed> (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:884:9)
+[0]     at handleIncomingPacket (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:939:12)
+[0]     at Socket.readFromStdout (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:862:7)
+[0]     at Socket.emit (node:events:508:28)
+[0]     at addChunk (node:internal/streams/readable:563:12)
+[0]     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+[0]     at Readable.push (node:internal/streams/readable:394:5)
+[0]     at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+[0]   name: 'TransformError'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:04:24 pm [tsx] change in ./src\utils\db.ts Rerunning...
+[0] c8:04:24 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cnode:internal/modules/run_main:107
+[0]     triggerUncaughtException(
+[0]     ^
+[0] 
+[0] Error: Transform failed with 1 error:
+[0] C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts:22:11: ERROR: Unexpected "sqlite3"
+[0]     at failureErrorWithLog (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1748:15)
+[0]     at C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1017:50
+[0]     at responseCallbacks.<computed> (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:884:9)
+[0]     at handleIncomingPacket (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:939:12)
+[0]     at Socket.readFromStdout (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:862:7)
+[0]     at Socket.emit (node:events:508:28)
+[0]     at addChunk (node:internal/streams/readable:563:12)
+[0]     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+[0]     at Readable.push (node:internal/streams/readable:394:5)
+[0]     at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+[0]   name: 'TransformError'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:04:25 pm [tsx] change in ./src\utils\db.ts Rerunning...
+[0] cnode:internal/modules/run_main:107
+[0]     triggerUncaughtException(
+[0]     ^
+[0] 
+[0] Error: Transform failed with 1 error:
+[0] C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts:22:11: ERROR: Unexpected "sqlite3"
+[0]     at failureErrorWithLog (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1748:15)
+[0]     at C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:1017:50
+[0]     at responseCallbacks.<computed> (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:884:9)
+[0]     at handleIncomingPacket (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:939:12)
+[0]     at Socket.readFromStdout (C:\Users\grand\OneDrive\Desktop\versuzo\node_modules\esbuild\lib\main.js:862:7)
+[0]     at Socket.emit (node:events:508:28)
+[0]     at addChunk (node:internal/streams/readable:563:12)
+[0]     at readableAddChunkPushByteMode (node:internal/streams/readable:514:3)
+[0]     at Readable.push (node:internal/streams/readable:394:5)
+[0]     at Pipe.onStreamRead (node:internal/stream_base_commons:189:23) {
+[0]   name: 'TransformError'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:05:56 pm [tsx] change in ./src\utils\db.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:05:56 pm [tsx] unlink in ./src\utils\db.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:06:20 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:06:21 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:06:22 pm [tsx] change in ./src\repositories\consultation.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:06:24 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:06:33 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:06:59 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:03 pm [tsx] change in ./src\repositories\consultation.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:07 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] c8:07:07 pm [tsx] change in ./src\repositories\log.repository.ts Restarting...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:09 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:50 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:54 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.ts'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:54 pm [tsx] change in ./src\repositories\consultation.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.ts'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:55 pm [tsx] change in ./src\repositories\consultation.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.ts'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:58 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.ts'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:07:59 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.ts'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:08:20 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.ts' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.ts'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:08:22 pm [tsx] change in ./src\repositories\user.repository.ts Rerunning...
+[0] c8:08:23 pm [tsx] change in ./src\repositories\consultation.repository.ts Restarting...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:08:25 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:09:33 pm [tsx] change in ./src\repositories\log.repository.ts Rerunning...
+[0] cnode:internal/modules/esm/resolve:275
+[0]     throw new ERR_MODULE_NOT_FOUND(
+[0]           ^
+[0] 
+[0] Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\utils\db.js' imported from C:\Users\grand\OneDrive\Desktop\versuzo\backend\src\repositories\consultation.repository.ts
+[0]     at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+[0]     at moduleResolve (node:internal/modules/esm/resolve:865:10)
+[0]     at defaultResolve (node:internal/modules/esm/resolve:991:11)
+[0]     at #cachedDefaultResolve (node:internal/modules/esm/loader:719:20)
+[0]     at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:736:38)
+[0]     at nextStep (node:internal/modules/customization_hooks:189:26)
+[0]     at resolveBaseSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:8745)
+[0]     at resolveDirectorySync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:9958)
+[0]     at resolveTsPathsSync (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:11190)
+[0]     at resolve2 (file:///C:/Users/grand/OneDrive/Desktop/versuzo/node_modules/tsx/dist/register-CqMfTiWi.mjs:2:12977) {
+[0]   code: 'ERR_MODULE_NOT_FOUND',
+[0]   url: 'file:///C:/Users/grand/OneDrive/Desktop/versuzo/backend/src/utils/db.js'
+[0] }
+[0] 
+[0] Node.js v24.14.0
+[0] 8:10:56 pm [tsx] change in ./src\utils\db.ts Rerunning...
+[0] c8:10:56 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cNodemailer: SMTP credentials missing. Running in DEV console-logger mode.
+[0] Versuzo API running on http://localhost:4000
+[0] Health: http://localhost:4000/api/v1/health
+[0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
+[0] SQLite tables initialized.
+[0] 8:11:17 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cNodemailer: SMTP credentials missing. Running in DEV console-logger mode.
+[0] Versuzo API running on http://localhost:4000
+[0] Health: http://localhost:4000/api/v1/health
+[0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
+[0] SQLite tables initialized.
+[0] 8:13:32 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cNodemailer: SMTP credentials missing. Running in DEV console-logger mode.
+[0] Versuzo API running on http://localhost:4000
+[0] Health: http://localhost:4000/api/v1/health
+[0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
+[0] SQLite tables initialized.
+[0] 8:13:33 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cNodemailer: SMTP credentials missing. Running in DEV console-logger mode.
+[0] Versuzo API running on http://localhost:4000
+[0] Health: http://localhost:4000/api/v1/health
+[0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
+[0] SQLite tables initialized.
+[0] 8:13:35 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cNodemailer: SMTP credentials missing. Running in DEV console-logger mode.
+[0] Versuzo API running on http://localhost:4000
+[0] Health: http://localhost:4000/api/v1/health
+[0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
+[0] SQLite tables initialized.
+[0] 8:14:28 pm [tsx] change in ./src\utils\db.ts Restarting...
+[0] cNodemailer: SMTP credentials missing. Running in DEV console-logger mode.
+[0] Versuzo API running on http://localhost:4000
+[0] Health: http://localhost:4000/api/v1/health
+[0] Connected to the SQLite database at: C:\Users\grand\OneDrive\Desktop\versuzo\backend\database.sqlite
+[0] SQLite tables initialized.
