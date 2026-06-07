@@ -1,0 +1,96 @@
+import type { Metadata } from "next";
+import { Plus_Jakarta_Sans, Inter } from "next/font/google";
+import { siteConfig } from "@/lib/constants/site";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
+import { AuthProvider } from "@/components/providers/AuthProvider";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import "./globals.css";
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-geist-sans",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.siteUrl),
+  applicationName: "Versuzo",
+  title: {
+    default: "Versuzo | Transforming Talent into Opportunity and Success",
+    template: "%s | Versuzo",
+  },
+  description: siteConfig.description,
+  keywords: [
+    "Versuzo",
+    "EdTech",
+    "online learning",
+    "cohort-based courses",
+    "career development",
+    "mentorship",
+    "product management",
+    "data science",
+    "AI machine learning",
+  ],
+  authors: [{ name: "Versuzo" }],
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Versuzo",
+    url: siteConfig.siteUrl,
+    title: "Versuzo | Transforming Talent into Opportunity and Success",
+    description: siteConfig.description,
+    images: [
+      {
+        url: "/images/versuzo-logo.png",
+        width: 914,
+        height: 559,
+        alt: "Versuzo logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Versuzo | Transforming Talent into Opportunity and Success",
+    description: siteConfig.description,
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  icons: {
+    icon: "/images/versuzo-logo.png",
+    apple: "/images/versuzo-logo.png",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={`${jakarta.variable} ${inter.variable} font-sans antialiased`}
+      >
+        <ThemeProvider>
+          <AuthProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </AuthProvider>
+        </ThemeProvider>
+      </body>
+    </html>
+  );
+}

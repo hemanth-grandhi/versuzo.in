@@ -1,0 +1,9 @@
+export { statsData } from "./stats.data.js";
+export { partnersData } from "./partners.data.js";
+export { programsData } from "./programs.data.js";
+export { whyFeaturesData } from "./whyFeatures.data.js";
+export { mentorsData } from "./mentors.data.js";
+export { learningStepsData } from "./learningSteps.data.js";
+export { testimonialsData } from "./testimonials.data.js";
+export { communityFeaturesData } from "./community.data.js";
+export { faqsData } from "./faqs.data.js";

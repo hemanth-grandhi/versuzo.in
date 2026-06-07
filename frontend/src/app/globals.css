@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Versuzo design tokens — aligned with logo */
+    --background: 255 255 255;
+    --foreground: 10 33 75;
+    --card: 255 255 255;
+    --card-foreground: 10 33 75;
+    --muted: 243 246 250;
+    --muted-foreground: 91 114 137;
+    --border: 209 224 249;
+    --ring: 75 179 230;
+    --primary: 10 33 75;
+    --primary-foreground: 255 255 255;
+    --secondary: 75 179 230;
+    --secondary-foreground: 255 255 255;
+    --accent: 75 179 230;
+    --accent-foreground: 255 255 255;
+  }
+
+  .dark {
+    --background: 5 16 38;
+    --foreground: 232 239 255;
+    --card: 10 33 75;
+    --card-foreground: 232 239 255;
+    --muted: 15 50 112;
+    --muted-foreground: 164 193 242;
+    --border: 20 66 148;
+    --ring: 75 179 230;
+    --primary: 75 179 230;
+    --primary-foreground: 5 16 38;
+    --secondary: 75 179 230;
+    --secondary-foreground: 255 255 255;
+    --accent: 75 179 230;
+    --accent-foreground: 5 16 38;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-brand-900 antialiased dark:bg-brand-950 dark:text-brand-50;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass {
+    @apply border border-brand-100/80 bg-white/80 backdrop-blur-xl dark:border-brand-800/60 dark:bg-brand-950/80;
+  }
+
+  .section-padding {
+    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+  }
+
+  .section-surface {
+    @apply bg-surface-muted dark:bg-brand-900/40;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-900 via-sky-500 to-sky-400 bg-clip-text text-transparent dark:from-sky-300 dark:via-sky-400 dark:to-sky-400;
+  }
+
+  .icon-gradient {
+    @apply bg-gradient-to-br from-brand-900 to-sky-500 text-white shadow-sky;
+  }
+
+  @keyframes marquee-ltr {
+    0% {
+      transform: translate3d(-50%, 0, 0);
+    }
+    100% {
+      transform: translate3d(0%, 0, 0);
+    }
+  }
+
+  .animate-marquee-ltr {
+    display: flex;
+    width: max-content;
+    animation: marquee-ltr 24s linear infinite;
+  }
+
+  @keyframes marquee-rtl {
+    0% {
+      transform: translate3d(0%, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+  .animate-marquee-rtl {
+    display: flex;
+    width: max-content;
+    animation: marquee-rtl 60s linear infinite;
+  }
+}

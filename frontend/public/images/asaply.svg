@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 40" width="160" height="40">
+  <!-- Brand Symbol (Dot and Wedge) -->
+  <g fill="#000000">
+    <circle cx="18" cy="20" r="6" />
+    <polygon points="32,17.5 70,16.2 70,23.8 32,22.5" />
+  </g>
+  <!-- Brand Text -->
+  <text x="80" y="28" font-family="'Poppins', 'Inter', -apple-system, sans-serif" font-size="24" font-weight="800" fill="#000000" letter-spacing="-0.5">asaply</text>
+</svg>
