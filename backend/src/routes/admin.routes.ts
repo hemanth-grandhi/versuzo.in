@@ -5,11 +5,11 @@ import { protect, restrictToAdmin } from "../middleware/auth.js";
 const router = Router();
 
 // Apply protection & admin constraints to all admin endpoints
-router.use(protect as any);
-router.use(restrictToAdmin as any);
+router.use(protect);
+router.use(restrictToAdmin);
 
-router.get("/users", getUsers as any);
-router.get("/leads", getLeads as any);
-router.get("/logs", getLogs as any);
+router.get("/users", getUsers);
+router.get("/leads", getLeads);
+router.get("/logs", getLogs);
 
 export default router;

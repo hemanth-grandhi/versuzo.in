@@ -14,6 +14,7 @@ interface ButtonProps {
   onClick?: () => void;
   type?: "button" | "submit";
   target?: string;
+  rel?: string;
 }
 
 const variants: Record<Variant, string> = {
@@ -35,6 +36,7 @@ export function Button({
   onClick,
   type = "button",
   target,
+  rel,
 }: ButtonProps) {
   const base =
     "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-brand-950";
@@ -44,7 +46,12 @@ export function Button({
   if (href) {
     return (
       <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
-        <Link href={href} className={classes} target={target}>
+        <Link
+          href={href}
+          className={classes}
+          target={target}
+          rel={rel ?? (target === "_blank" ? "noreferrer" : undefined)}
+        >
           {children}
         </Link>
       </motion.div>

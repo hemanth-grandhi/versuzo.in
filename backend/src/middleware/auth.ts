@@ -1,4 +1,4 @@
-import type { Request, Response, NextFunction } from "express";
+import type { Request, Response, NextFunction, RequestHandler } from "express";
 import jwt from "jsonwebtoken";
 import { env } from "../config/index.js";
 import { userRepository } from "../repositories/user.repository.js";
@@ -14,11 +14,12 @@ export interface AuthenticatedRequest extends Request {
   };
 }
 
-export async function protect(
-  req: AuthenticatedRequest,
+export const protect: RequestHandler = async (
+  req: Request,
   res: Response,
   next: NextFunction
-): Promise<void> {
+): Promise<void> => {
+  const authReq = req as AuthenticatedRequest;
   try {
     let token = "";
     if (
@@ -43,7 +44,7 @@ export async function protect(
       return;
     }
 
-    req.user = {
+    authReq.user = {
       id: user.id,
       name: user.name,
       email: user.email,
@@ -57,12 +58,13 @@ export async function protect(
   }
 }
 
-export function restrictToAdmin(
-  req: AuthenticatedRequest,
+export const restrictToAdmin: RequestHandler = (
+  req: Request,
   res: Response,
   next: NextFunction
-): void {
-  if (!req.user || req.user.role !== "admin") {
+): void => {
+  const authReq = req as AuthenticatedRequest;
+  if (!authReq.user || authReq.user.role !== "admin") {
     sendError(res, "You do not have permission to perform this action.", 403);
     return;
   }

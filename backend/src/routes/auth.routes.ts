@@ -20,6 +20,6 @@ router.post("/forgot-password", authLimiter, forgotPassword);
 router.post("/reset-password", authLimiter, resetPassword);
 
 // Protected profile endpoint
-router.get("/me", protect as any, getMe as any);
+router.get("/me", protect, getMe);
 
 export default router;

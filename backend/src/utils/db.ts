@@ -1,9 +1,13 @@
 import sqlite3 from "sqlite3";
 import { join } from "path";
+import os from "os";
 import bcrypt from "bcryptjs";
 import { env } from "../config/index.js";
 
-const dbPath = env.databasePath ?? join(process.cwd(), "database.sqlite");
+const defaultDbPath = process.env.VERCEL
+  ? join(os.tmpdir(), "database.sqlite")
+  : join(process.cwd(), "database.sqlite");
+const dbPath = env.databasePath ?? defaultDbPath;
 
 // Enable verbosity for better error logging in dev mode
 const sqlite3Verbose = sqlite3.verbose();
