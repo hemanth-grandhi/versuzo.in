@@ -9,6 +9,7 @@ frontend/out/
 
 # backend build
 backend/dist/
+backend/database.sqlite
 
 # env
 .env
@@ -20,6 +21,7 @@ frontend/.env.local
 .DS_Store
 *.pem
 npm-debug.log*
+versuzo-dev*.log
 *.tsbuildinfo
 
 # legacy root build artifacts

@@ -73,6 +73,38 @@ npm run start:backend
 npm run start:frontend
 ```
 
+## Vercel deployment readiness
+
+This repository is a monorepo with separate frontend and backend applications:
+
+- **Frontend project root:** `frontend/`
+- **Backend project root:** `backend/`
+
+### Backend environment variables
+
+Configure these in Vercel for the backend project:
+
+- `JWT_SECRET` — required in production
+- `CORS_ORIGIN` — set to your frontend origin(s), for example: `https://versuzo.in,https://www.versuzo.in`
+- `FRONTEND_URL` — set to your frontend URL, for example: `https://versuzo.in`
+- `DATABASE_URL` — optional if using Postgres in production
+- `DATABASE_PATH` — optional if you want to override SQLite path
+- `SEED_ADMIN_EMAIL` and `SEED_ADMIN_PASSWORD` — optional admin seeding
+- `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` — optional for real email delivery
+
+### Frontend environment variables
+
+Set these in Vercel for the frontend project:
+
+- `NEXT_PUBLIC_API_URL` — backend API URL, for example: `https://<your-backend-project>.vercel.app`
+- `NEXT_PUBLIC_SITE_URL` — frontend URL, for example: `https://versuzo.in`
+
+### Vercel compatibility notes
+
+- The frontend is a Next.js 15 app and builds successfully with `next build`.
+- The backend is a Node.js Express API with a Vercel-compatible `backend/vercel.json` configuration.
+- For manual deployment, import the frontend and backend as separate Vercel projects if desired.
+
 ## Tech stack
 
 - **Frontend**: Next.js 15, React 19, Tailwind CSS, Framer Motion
