@@ -35,7 +35,6 @@ export const env = {
     "JWT_SECRET",
     isProduction ? undefined : "versuzo-default-jwt-secret-key-123456"
   ),
-  databasePath: optionalEnv("DATABASE_PATH"),
   seedAdminEmail: optionalEnv("SEED_ADMIN_EMAIL"),
   seedAdminPassword: optionalEnv("SEED_ADMIN_PASSWORD"),
   isProduction,
