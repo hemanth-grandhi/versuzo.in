@@ -395,7 +395,6 @@ export function AIToolsShowcase() {
             >
               {/* Logo icon container */}
               <div className="flex h-12 w-28 items-center justify-center transition-transform duration-300 group-hover:scale-105">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src={tool.logoUrl}
                   alt={`${tool.name} Logo`}
