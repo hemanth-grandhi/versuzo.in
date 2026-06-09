@@ -5,9 +5,9 @@
 
 export const navLinks = [
   { href: "#", label: "Home" },
-  { href: "#why", label: "Why Us" },
-  { href: "#about", label: "About Us" },
   { href: "#our-programs", label: "Programs" },
+  { href: "#about", label: "About Us" },
+  { href: "#why", label: "Why Us" },
   { href: "#cta", label: "Contact Us" },
 ] as const;
 

@@ -238,12 +238,18 @@ Thank you.`;
   };
 
   return (
-    <section id="our-programs" className="section-padding relative overflow-hidden scroll-mt-24">
+    <section id="our-programs" className="relative overflow-hidden scroll-mt-24 pt-8 sm:pt-10 lg:pt-16 px-4 sm:px-6 lg:px-8">
       {/* Background radial glows matching brand colors */}
       <div className="absolute -right-48 top-1/3 -z-10 h-[400px] w-[400px] rounded-full bg-sky-500/10 blur-[100px] dark:bg-sky-500/5" />
       <div className="absolute -left-48 bottom-1/3 -z-10 h-[400px] w-[400px] rounded-full bg-brand-500/10 blur-[100px] dark:bg-brand-500/5" />
 
       <div className="mx-auto max-w-7xl">
+        <div className="mb-6">
+          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-sky-600">
+            PROGRAMS
+          </h1>
+        </div>
+
         <SectionHeader
           label="Internship & Training Programs"
           title={activeDept.name}
