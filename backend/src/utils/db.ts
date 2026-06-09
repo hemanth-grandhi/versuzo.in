@@ -64,7 +64,22 @@ if (process.env.DATABASE_URL) {
     console.warn(`⚠️  Database operations will be unavailable until DATABASE_URL is fixed.`);
   } else {
     console.log(`✓ DATABASE_URL validation passed: Host=${validation.host}, Database=${validation.database}`);
-    pgPool = new Pool({ connectionString: process.env.DATABASE_URL });
+    
+    // PostgreSQL pool configuration with SSL/TLS for Neon compatibility
+    const poolConfig: any = {
+      connectionString: process.env.DATABASE_URL,
+    };
+
+    // Enable SSL/TLS for Neon and remote databases
+    // Neon requires SSL connections; rejectUnauthorized: false allows self-signed certificates
+    if (process.env.NODE_ENV === "production" || validation.host?.includes("neon")) {
+      poolConfig.ssl = {
+        rejectUnauthorized: false,
+      };
+      console.log("✓ SSL/TLS enabled for database connection (Neon-compatible)");
+    }
+
+    pgPool = new Pool(poolConfig);
     pgPool
       .connect()
       .then((client: any) => {
@@ -80,6 +95,10 @@ if (process.env.DATABASE_URL) {
         }
         if (err.message.includes("ECONNREFUSED")) {
           console.error("  → Connection refused. Check if PostgreSQL server is running and port is correct.");
+        }
+        if (err.message.includes("CERTIFICATE") || err.message.includes("SSL") || err.message.includes("TLS")) {
+          console.error("  → SSL/TLS certificate error. For Neon, SSL is required but self-signed certs may cause issues.");
+          console.error("  → Current SSL config: rejectUnauthorized=false");
         }
         if (err.message.includes("password")) {
           console.error("  → Authentication failed. Check DATABASE_URL credentials.");
