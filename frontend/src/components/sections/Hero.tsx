@@ -22,7 +22,6 @@ import {
   Wrench,
   Briefcase,
   MessageCircle,
-  Rocket,
 } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 
@@ -370,6 +369,24 @@ Thank you.`;
                 Live cohort learning
               </span>
             </div>
+
+            {/* Compact Direct Enrollment horizontal card placed under the stats (left column) */}
+            <div className="mt-3">
+              <div className="inline-flex w-full max-w-md items-center justify-between gap-4 rounded-lg bg-white/60 p-2.5 pr-3 shadow-sm border border-sky-100">
+                <div className="flex flex-col">
+                  <span className="text-sm font-semibold text-sky-700">Direct Enrollment</span>
+                  <span className="text-xs text-slate-600">Quick online enrollment</span>
+                </div>
+                <button
+                  type="button"
+                  aria-label="Enroll Now - opens enrollment form in a new tab"
+                  onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScxEi10N-tIhc_fLIQJ9UZHA03dvmhjvNgCUz1ApPEfndzNjg/viewform", "_blank", "noopener,noreferrer")}
+                  className="ml-2 inline-flex items-center gap-2 rounded-md bg-gradient-to-r from-sky-500 to-brand-600 px-3 py-2 text-sm font-bold text-white shadow-sm hover:opacity-95 transition-colors"
+                >
+                  Enroll Now
+                </button>
+              </div>
+            </div>
           </motion.div>
 
           <motion.div
@@ -402,10 +419,8 @@ Thank you.`;
               </div>
             </div>
 
-            {/* Consultation + Direct Enrollment Cards */}
-            <div className="relative z-30 grid grid-cols-1 gap-6 sm:grid-cols-2">
-              {/* Small WhatsApp Call Box (Consultation Form) */}
-              <div className="relative rounded-3xl border border-brand-100 bg-white p-5 shadow-xl shadow-brand/5 dark:border-brand-800 dark:bg-brand-900">
+            {/* Small WhatsApp Call Box (Consultation Form) */}
+            <div className="relative z-30 rounded-3xl border border-brand-100 bg-white p-5 shadow-xl shadow-brand/5 dark:border-brand-800 dark:bg-brand-900">
               {/* Background gradient glows inside the card */}
               <div className="absolute -right-20 -top-20 h-40 w-40 rounded-full bg-sky-500/5 dark:bg-sky-500/10 blur-3xl pointer-events-none" />
               
@@ -624,60 +639,6 @@ Thank you.`;
                     </a>
                   </div>
                 </form>
-              </div>
-              </div>
-
-              {/* Direct Enrollment Card */}
-              <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-sky-500 to-brand-600 p-5 shadow-xl flex items-stretch">
-                <div className="flex w-full flex-col justify-between gap-4">
-                  <div className="flex items-start gap-3">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-white/20 text-white shadow-sm">
-                      <Rocket className="h-6 w-6" aria-hidden="true" />
-                    </div>
-                    <div>
-                      <h3 className="font-display text-sm font-bold text-white">
-                        🚀 Direct Enrollment
-                      </h3>
-                      <p className="mt-1 text-[13px] text-white/90">
-                        Ready to start your learning journey? Enroll directly and secure your seat in your preferred program.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="mt-2">
-                    <p className="text-sm text-white/95 font-semibold mb-3">Direct Enrollment</p>
-                    <p className="text-xs text-white/90 mb-4">Skip the advisor step and enroll directly through our official application form.</p>
-
-                    <div className="flex items-center gap-3">
-                      <button
-                        type="button"
-                        onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScxEi10N-tIhc_fLIQJ9UZHA03dvmhjvNgCUz1ApPEfndzNjg/viewform", "_blank", "noopener,noreferrer")}
-                        aria-label="Enroll Now - opens enrollment form in a new tab"
-                        className="inline-flex items-center gap-2 rounded-xl bg-white px-4 py-2 text-sm font-bold text-sky-600 shadow-md hover:scale-105 transition-transform focus:outline-none focus:ring-2 focus:ring-white"
-                      >
-                        <Rocket className="h-4 w-4 text-sky-600" />
-                        Enroll Now
-                      </button>
-
-                      <div className="hidden sm:flex items-start text-sm text-white/90">
-                        <ul className="space-y-1">
-                          <li className="flex items-center gap-2">
-                            <Users className="h-4 w-4 text-white/90" />
-                            <span>2,000+ learners</span>
-                          </li>
-                          <li className="flex items-center gap-2">
-                            <GraduationCap className="h-4 w-4 text-white/90" />
-                            <span>Industry certificates</span>
-                          </li>
-                          <li className="flex items-center gap-2">
-                            <BookOpen className="h-4 w-4 text-white/90" />
-                            <span>Live cohort learning</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </motion.div>
