@@ -7,22 +7,87 @@ if (!process.env.DATABASE_URL && process.env.NODE_ENV === "production") {
   throw new Error("DATABASE_URL environment variable is required in production");
 }
 
+// Validate and parse DATABASE_URL format
+function validateDatabaseURL(url: string): { valid: boolean; error?: string; host?: string; database?: string } {
+  if (!url) {
+    return { valid: false, error: "DATABASE_URL is empty" };
+  }
+
+  // Check for placeholder or invalid values
+  if (url === "base" || url === "postgres://base" || url.includes("YOUR_") || url.includes("PLACEHOLDER")) {
+    return { 
+      valid: false, 
+      error: `DATABASE_URL contains placeholder or invalid value: "${url}". Use format: postgresql://USER:PASSWORD@HOST:PORT/DATABASE` 
+    };
+  }
+
+  // Basic format validation
+  if (!url.startsWith("postgres://") && !url.startsWith("postgresql://")) {
+    return { 
+      valid: false, 
+      error: `DATABASE_URL must start with "postgres://" or "postgresql://". Got: "${url.substring(0, 50)}"` 
+    };
+  }
+
+  try {
+    const urlObj = new URL(url);
+    const host = urlObj.hostname;
+    const database = urlObj.pathname.replace("/", "");
+
+    if (!host) {
+      return { valid: false, error: "DATABASE_URL has no hostname" };
+    }
+
+    if (!database) {
+      return { valid: false, error: "DATABASE_URL has no database name" };
+    }
+
+    return { valid: true, host, database };
+  } catch (err: any) {
+    return { valid: false, error: `Invalid DATABASE_URL format: ${err.message}` };
+  }
+}
+
 let pgPool: Pool | null = null;
 
 if (process.env.DATABASE_URL) {
-  pgPool = new Pool({ connectionString: process.env.DATABASE_URL });
-  pgPool
-    .connect()
-    .then((client: any) => {
-      client.release();
-      console.log("Connected to Postgres database via DATABASE_URL");
-      initializeDatabase().catch((err) => console.error("DB init failed:", err));
-    })
-    .catch((err: any) => {
-      console.error("Postgres connection failed:", err.message);
-    });
+  const validation = validateDatabaseURL(process.env.DATABASE_URL);
+  
+  if (!validation.valid) {
+    console.error(`❌ DATABASE_URL Validation Error: ${validation.error}`);
+    console.error(`   Current DATABASE_URL: ${process.env.DATABASE_URL.substring(0, 50)}${process.env.DATABASE_URL.length > 50 ? "..." : ""}`);
+    console.error(`   Expected Format: postgresql://USER:PASSWORD@HOST:PORT/DATABASE`);
+    if (process.env.NODE_ENV === "production") {
+      throw new Error(`Invalid DATABASE_URL: ${validation.error}`);
+    }
+    // Don't create pool with invalid URL in development either
+    console.warn(`⚠️  Database operations will be unavailable until DATABASE_URL is fixed.`);
+  } else {
+    console.log(`✓ DATABASE_URL validation passed: Host=${validation.host}, Database=${validation.database}`);
+    pgPool = new Pool({ connectionString: process.env.DATABASE_URL });
+    pgPool
+      .connect()
+      .then((client: any) => {
+        client.release();
+        console.log("✓ Successfully connected to Postgres database via DATABASE_URL");
+        initializeDatabase().catch((err) => console.error("DB init failed:", err));
+      })
+      .catch((err: any) => {
+        console.error("✗ Postgres connection failed:", err.message);
+        if (err.message.includes("ENOTFOUND") || err.message.includes("getaddrinfo")) {
+          console.error("  → DNS lookup failed. Check DATABASE_URL hostname is correct and accessible.");
+          console.error(`  → Hostname: ${validation.host}`);
+        }
+        if (err.message.includes("ECONNREFUSED")) {
+          console.error("  → Connection refused. Check if PostgreSQL server is running and port is correct.");
+        }
+        if (err.message.includes("password")) {
+          console.error("  → Authentication failed. Check DATABASE_URL credentials.");
+        }
+      });
+  }
 } else {
-  console.warn("DATABASE_URL not set. Database operations will fail.");
+  console.warn("⚠️  DATABASE_URL not set. Database operations will fail. Required format: postgresql://USER:PASSWORD@HOST:PORT/DATABASE");
 }
 
 export const query = {
