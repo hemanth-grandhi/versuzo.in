@@ -62,7 +62,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🔥 Industry Training + Project-Based Internship Opportunity",
     tagline: "Master Data Structures & Algorithms, Artificial Intelligence, Machine Learning, Generative AI, Prompt Engineering, and Real-World AI Applications.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month Intensive Training covering core structures, algorithms, AI foundations, and generative models through interactive live classes.",
@@ -141,9 +141,9 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "Is there placement assistance provided?", answer: "Yes! We provide dedicated career support, which includes resume building, GitHub portfolio review, LinkedIn profile optimization, interview preparation, and placement assistance through our corporate partners." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "No cost EMI options available. Pay in 3 monthly installments of ₹2,666.",
-      discounts: "Early bird discount of 10% applied. Standard price is ₹8,888.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
+      discounts: "Early bird discount of 10% applied. Standard price is ₹15,000.",
       scholarship: "Up to 50% merit-based scholarship available for top 10% performers in initial assessments.",
       included: ["Complete 3-Month Training & Projects", "Weekly Live Doubt Sessions", "Verifiable Dual Certificates", "ATS Resume & Profile Reviews", "Lifetime Access to Recordings", "Placement Assistance Support"],
     },
@@ -154,7 +154,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🚀 Full Stack Web App Engineering + Production Deployments",
     tagline: "Master Frontend, Backend, Databases, API Design, System Architecture, and Build Production-Ready Applications.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month Intensive Training covering React, Next.js, Node.js, Express, databases (MongoDB/PostgreSQL), and RESTful APIs.",
@@ -230,8 +230,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "Do we learn SQL or NoSQL databases?", answer: "Both! We teach relational databases using PostgreSQL and document-based databases using MongoDB to ensure you are ready for any stack." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "No-cost EMI starting from ₹2,666 per month for 3 months.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for college students with valid student IDs.",
       scholarship: "Perform well in week 1 coding challenges to unlock up to 30% tuition waivers.",
       included: ["All Live Lectures & Workshops", "Personal GitHub Code Reviews", "Production Deployment Server Credits", "Verifiable Certificates", "Resume & Profile Builders", "Placement Support Contacts"],
@@ -243,7 +243,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🛡️ Cyber Defense + Ethical Hacking + Risk Assessment Labs",
     tagline: "Develop Expertise in Ethical Hacking, Network Security, Cloud Auditing, Governance, Compliance, and Threat Hunting.",
     duration: "3 Months",
-    fee: "₹8,499",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Linux networking, offensive security tools (Kali, Metasploit, Wireshark), and compliance frameworks (ISO 27001, SOC 2).",
@@ -319,8 +319,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "Does this prepare me for certifications?", answer: "Yes, our syllabus aligns with concepts tested in CompTIA Security+, CEH (Certified Ethical Hacker), and ISO 27001 Auditor exams." },
     ],
     feeStructure: {
-      amount: "₹8,499",
-      paymentPlans: "EMI plans starting at ₹2,833/month for 3 months with credit/debit cards.",
+      amount: "₹15,000",
+      paymentPlans: "EMI plans starting at ₹5,000/month for 3 months with credit/debit cards.",
       discounts: "Early-bird discount of ₹1,000 off for the first 20 enrollments of the batch.",
       scholarship: "Perform in top brackets in our CTF challenges to earn up to 40% fee cashback.",
       included: ["Cyber Range Lab Access Guides", "Live Exploitation Classes", "Verifiable Certificates", "Corporate GRC Templates", "Security Interview Q&A Bank", "Placement Referral Network"],
@@ -332,7 +332,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "☁️ AWS & Azure + Docker & Kubernetes + CI/CD Pipelines",
     tagline: "Master Cloud Infrastructure, Containerization, Infrastructure as Code, CI/CD pipelines, and System Reliability.",
     duration: "3 Months",
-    fee: "₹8,499",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering AWS services, Docker containers, Kubernetes clusters, and Terraform automation script development.",
@@ -408,8 +408,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What certifications does this align with?", answer: "Our course content aligns with AWS Certified Cloud Practitioner, Solutions Architect Associate, and Certified Kubernetes Administrator (CKA)." },
     ],
     feeStructure: {
-      amount: "₹8,499",
-      paymentPlans: "3-month interest free installment plan of ₹2,833/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold active cloud certifications.",
       scholarship: "Top 3 students in monthly deployment reviews get 50% fee refunds.",
       included: ["Live Console Sessions", "Personal IaC Code Refactoring", "Reusable Infrastructure Assets", "Dual Certificates", "AWS Console Setup Lab Guides", "Placement Direct Referrals"],
@@ -421,7 +421,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🎨 Figma Systems + UX Research + Interactive Prototypes",
     tagline: "Master User Research, Wireframing, High-Fidelity Design, Advanced Auto-Layout, UI Components, and Interactive Prototyping.",
     duration: "3 Months",
-    fee: "₹6,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month training covering user persona interviews, information architecture, Figma systems, auto-layout, and interaction animations.",
@@ -497,8 +497,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What tools do we learn?", answer: "We focus heavily on Figma, the industry standard tool. We also cover FigJam for user flows and research layouts." },
     ],
     feeStructure: {
-      amount: "₹6,999",
-      paymentPlans: "Installment options available at ₹2,333/month for 3 months.",
+      amount: "₹15,000",
+      paymentPlans: "Installment options available at ₹5,000/month for 3 months.",
       discounts: "10% early registration discount applied for the first 15 signups of the month.",
       scholarship: "Submit outstanding visual design submissions in week 2 to earn up to 30% fee cashback.",
       included: ["Live Figma Design Workshops", "Personal Portfolio Reviews", "Premium UI Component Kits", "Verifiable Certificates", "Developer Hand-off Training", "Design Direct Referrals"],
@@ -510,7 +510,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "📡 Microcontrollers + IoT Sensors + Firmware & Communication Protocols",
     tagline: "Build Smart Connected Systems Using Microcontrollers, Sensors, Communication Protocols, and Cloud IoT Platforms.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Embedded C, microcontroller architectures (ESP32/Arduino), sensor interfaces, and IoT protocols (MQTT, HTTP).",
@@ -586,8 +586,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What hardware platforms are covered?", answer: "We focus on ESP32 due to its integrated WiFi/Bluetooth, and cover Arduino UNO fundamentals to establish basic principles." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,666/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold college degrees in ECE, EEE, or Instrumentation.",
       scholarship: "Top 3 students in monthly firmware evaluations get 50% fee refunds.",
       included: ["Live Console Sessions", "Firmware Code Refactoring", "Simulation Component Files", "Dual Certificates", "Hardware Shopping Guides", "Placement Direct Referrals"],
@@ -599,7 +599,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🔬 Verilog RTL + SystemVerilog Verification + FPGA Workflows",
     tagline: "Learn Chip Design Fundamentals, RTL Design, SystemVerilog Verification, and Semiconductor Industry Workflows.",
     duration: "3 Months",
-    fee: "₹8,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Combinational & Sequential Logic, Verilog RTL coding, SystemVerilog Verification testbenches, and EDA toolflows.",
@@ -675,8 +675,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "Does this course cover UVM (Universal Verification Methodology)?", answer: "We cover SystemVerilog OOP concepts and verification testbenches thoroughly, which are the prerequisites for learning UVM." },
     ],
     feeStructure: {
-      amount: "₹8,999",
-      paymentPlans: "3-month interest free installment plan of ₹3,000/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in ECE, EEE, or Telecom.",
       scholarship: "Top 3 students in monthly verification coverage reviews get 50% fee refunds.",
       included: ["Live Code Sessions", "Testbench Architecture Reviews", "Reusable RTL & Testbench Files", "Dual Certificates", "EDA Simulator Setup Lab Guides", "Placement Direct Referrals"],
@@ -688,7 +688,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🤖 Edge AI + TinyML + Advanced PCB Design & Hardware Systems",
     tagline: "Develop Intelligent Systems, Deploying Machine Learning at the Edge, Programming Smart Sensors, and Designing Custom PCBs.",
     duration: "3 Months",
-    fee: "₹8,499",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering Microcontroller ML interfaces, Edge Impulse deployment, PCB design in KiCad, and sensor interfaces.",
@@ -764,8 +764,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What EDA software is covered?", answer: "We focus on KiCad because it is open-source, widely used in industry, and has no licensing restrictions for students." },
     ],
     feeStructure: {
-      amount: "₹8,499",
-      paymentPlans: "3-month interest free installment plan of ₹2,833/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in ECE, EEE, or Robotics.",
       scholarship: "Top 3 students in monthly PCB design reviews get 50% fee refunds.",
       included: ["Live PCB Design Sessions", "Personal Schematic Audits", "Reusable KiCad Templates", "Dual Certificates", "KiCad Component Library Guides", "Placement Direct Referrals"],
@@ -777,7 +777,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "⚡ EV Architecture + Battery Management Systems (BMS) + MATLAB Simulations",
     tagline: "Master EV Powertrains, Battery Pack Engineering, BMS Modeling, and MATLAB/Simulink System Simulations.",
     duration: "3 Months",
-    fee: "₹8,499",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering EV architectures, Motor controllers, Cell Chemistry, Battery Management System (BMS) algorithms, and MATLAB simulations.",
@@ -853,8 +853,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What backgrounds is this suitable for?", answer: "This program is ideal for Mechanical, Electrical, Electronics, and Automobile engineering students." },
     ],
     feeStructure: {
-      amount: "₹8,499",
-      paymentPlans: "3-month interest free installment plan of ₹2,833/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in EE, EEE, or Mechanical.",
       scholarship: "Top 3 students in monthly simulation reviews get 50% fee refunds.",
       included: ["Live Simulation Sessions", "Personal Model Reviews", "Reusable Simulink Models", "Dual Certificates", "EV Calculation Spreadsheet Tools", "Placement Direct Referrals"],
@@ -866,7 +866,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "⚙️ PLC Programming + SCADA Systems + Industry 4.0 IoT Integration",
     tagline: "Master PLC Programming (Ladder Logic), SCADA Interface Systems, Industrial Networking, and Factory Automation.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Ladder Logic Programming, PLC instructions, SCADA configurations, Modbus networking, and Industry 4.0 concepts.",
@@ -942,8 +942,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What PLC brands are represented?", answer: "We focus on open standards (like OpenPLC) and align concepts with Siemens Step 7 and Allen-Bradley RSLogix systems." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,666/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in EEE, ECE, or Mechanical.",
       scholarship: "Top 3 students in monthly ladder logic reviews get 50% fee refunds.",
       included: ["Live PLC Programming Sessions", "Personal Ladder Logic Reviews", "Reusable PLC Code Libraries", "Dual Certificates", "SCADA Design Resource Assets", "Placement Direct Referrals"],
@@ -955,7 +955,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "☀️ Solar & Wind Integration + Smart Metering + Microgrid Controls",
     tagline: "Master Solar/Wind Energy Modeling, Power Electronics, Smart Metering, and Microgrid Control Simulations.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering Solar panel modeling, MPPT algorithms, Wind power capture, power converters, and Smart Grid technologies.",
@@ -1031,8 +1031,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What backgrounds is this suitable for?", answer: "This program is ideal for Electrical, Electronics, Instrumentation, and Power engineering students." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,666/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in EE, EEE, or Energy Engineering.",
       scholarship: "Top 3 students in monthly grid simulation reviews get 50% fee refunds.",
       included: ["Live Simulation Sessions", "Personal Model Reviews", "Reusable Simulink Models", "Dual Certificates", "Energy Calculation Spreadsheet Tools", "Placement Direct Referrals"],
@@ -1044,7 +1044,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "⚙️ 3D CAD Modeling + FEA Stress Analysis + PLM & Manufacturing Principles",
     tagline: "Master Solid Modeling CAD, Finite Element Analysis Stress Simulations, and Industrial Product Lifecycle Workflows.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering 3D CAD modeling, Assembly design, FEA Stress/Thermal analyses, DFM/DFA rules, and PLM database concepts.",
@@ -1120,8 +1120,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What engineering disciplines is this for?", answer: "This program is ideal for Mechanical, Production, Aerospace, and Automobile engineering students." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,666/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in Mechanical or Automobile.",
       scholarship: "Top 3 students in monthly CAD design reviews get 50% fee refunds.",
       included: ["Live CAD Design Sessions", "Personal CAD File Audits", "Reusable 3D Component Models", "Dual Certificates", "GD&T Design Checklist Tools", "Placement Direct Referrals"],
@@ -1133,7 +1133,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🤖 Robotic Kinematics + Robot Operating System (ROS) + Autonomous Navigation",
     tagline: "Build Expertise in Robotic Kinematics, Control Algorithms, Robot Operating System (ROS), and Autonomous Navigation Simulation.",
     duration: "3 Months",
-    fee: "₹8,499",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Forward/Inverse Kinematics, PID motor controller feedback, ROS node systems, URDF layouts, and Gazebo simulators.",
@@ -1209,8 +1209,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What OS is required for the simulations?", answer: "We use Ubuntu Linux for ROS. We show you how to configure a virtual machine or use WSL2 on Windows." },
     ],
     feeStructure: {
-      amount: "₹8,499",
-      paymentPlans: "3-month interest free installment plan of ₹2,833/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in EE, ECE, or Mechanical.",
       scholarship: "Top 3 students in monthly SLAM mapping evaluations get 50% fee refunds.",
       included: ["Live Workspace Sessions", "Personal Code Audits", "Reusable ROS Package Files", "Dual Certificates", "UVM Robot CAD STL Files", "Placement Direct Referrals"],
@@ -1222,7 +1222,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🚗 Powertrain Calibration + Chassis Dynamics + ADAS Software & CFD",
     tagline: "Master Electric Powertrain Sizing, Vehicle Chassis Dynamics, ADAS Control Algorithms, and CFD Aerodynamics.",
     duration: "3 Months",
-    fee: "₹8,499",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering Powertrain calibrations, suspension geometries, CFD aerodynamics, and ADAS emergency braking logic.",
@@ -1298,8 +1298,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What engineering disciplines is this suitable for?", answer: "This program is ideal for Mechanical, Automobile, Mechatronics, and Systems engineering students." },
     ],
     feeStructure: {
-      amount: "₹8,499",
-      paymentPlans: "3-month interest free installment plan of ₹2,833/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold engineering degrees in Mechanical or Automobile.",
       scholarship: "Top 3 students in monthly automotive simulation reviews get 50% fee refunds.",
       included: ["Live Design Sessions", "Personal Model Reviews", "Reusable CFD & Simulation Files", "Dual Certificates", "Powertrain Sizing Spreadsheet Tools", "Placement Direct Referrals"],
@@ -1311,7 +1311,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "📈 AI-Powered Campaigns + SEO Automation + Performance Analytics",
     tagline: "Master Performance Marketing, SEO Strategy, Analytics, Content Generation Pipelines, and AI-Powered Marketing Tools.",
     duration: "3 Months",
-    fee: "₹6,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month core training covering SEO architectures, Google Analytics, social media ads, landing page optimizations, and generative AI content workflows.",
@@ -1387,8 +1387,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What background is suitable for this?", answer: "This program is ideal for Business, Marketing, Media, and any student wanting to build growth skills." },
     ],
     feeStructure: {
-      amount: "₹6,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,333/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold business or marketing degrees.",
       scholarship: "Top 3 students in monthly campaign design reviews get 50% fee refunds.",
       included: ["Live Console Sessions", "Personal Campaign Audits", "Reusable Ad Copy Templates", "Dual Certificates", "ROI Sizing Spreadsheet Tools", "Placement Direct Referrals"],
@@ -1400,7 +1400,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "🤝 B2B Sales + Cold Outreach Automation + Lead Sourcing Systems",
     tagline: "Learn Lead Sourcing, Cold Email Automation, Consultative Selling, Negotiation, and CRM Pipeline Management.",
     duration: "3 Months",
-    fee: "₹6,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering ICP definitions, lead scrapers, email verification tools, script writing, negotiation frameworks, and HubSpot CRM.",
@@ -1476,8 +1476,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What backgrounds is this suitable for?", answer: "This program is ideal for MBA, BBA, BCom, and any student wanting to build high-paying commercial careers." },
     ],
     feeStructure: {
-      amount: "₹6,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,333/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold business or marketing degrees.",
       scholarship: "Top 3 students in monthly pitch evaluations get 50% fee refunds.",
       included: ["Live Pitch Workshops", "Personal Script Reviews", "HubSpot Pipeline Templates", "Dual Certificates", "Commission Calculator Tools", "Placement Direct Referrals"],
@@ -1489,7 +1489,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "👥 Technical Recruitment + ATS Systems + Workforce Analytics",
     tagline: "Master Candidate Sourcing, Interview Frameworks, Applicant Tracking Systems (ATS), and HR Analytics.",
     duration: "3 Months",
-    fee: "₹6,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Job Description mapping, LinkedIn sourcing, Boolean searches, ATS workflows, employee policies, and HR analytics.",
@@ -1565,8 +1565,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What backgrounds is this suitable for?", answer: "This program is ideal for MBA, BBA, BCom, and any student wanting to build high-paying corporate careers." },
     ],
     feeStructure: {
-      amount: "₹6,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,333/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold business or HR degrees.",
       scholarship: "Top 3 students in monthly sourcing reviews get 50% fee refunds.",
       included: ["Live Sourcing Workshops", "Personal Sourcing Reviews", "ATS Pipeline Templates", "Dual Certificates", "HR Metric Spreadsheet Tools", "Placement Direct Referrals"],
@@ -1578,7 +1578,7 @@ export const coursesData: Record<string, CourseDetail> = {
     badge: "📊 Financial Modeling + Corporate Valuation + Portfolio Analytics",
     tagline: "Learn Financial Modeling, DCF Corporate Valuation, Portfolio Management, and Fintech Data Analytics.",
     duration: "3 Months",
-    fee: "₹7,999",
+    fee: "₹15,000",
     isProjectBased: true,
     highlights: {
       training: "1 Month intensive training covering Excel financial formulas, 3-Statement model design, DCF valuation, portfolio returns math, and fintech analysis tools.",
@@ -1654,8 +1654,8 @@ export const coursesData: Record<string, CourseDetail> = {
       { question: "What backgrounds is this suitable for?", answer: "This program is ideal for MBA Finance, CFA, BCom, and any student wanting to build high-paying commercial careers." },
     ],
     feeStructure: {
-      amount: "₹7,999",
-      paymentPlans: "3-month interest free installment plan of ₹2,666/month.",
+      amount: "₹15,000",
+      paymentPlans: "3-month interest free installment plan of ₹5,000/month.",
       discounts: "Flat 10% discount for students who hold business, economics, or math degrees.",
       scholarship: "Top 3 students in monthly model evaluations get 50% fee refunds.",
       included: ["Live Modeling Sessions", "Personal Model Cell Reviews", "Linked Excel Model Files", "Dual Certificates", "Corporate Valuation Presentation Layouts", "Placement Direct Referrals"],
