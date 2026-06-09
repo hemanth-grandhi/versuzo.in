@@ -244,10 +244,12 @@ Thank you.`;
       <div className="absolute -left-48 bottom-1/3 -z-10 h-[400px] w-[400px] rounded-full bg-brand-500/10 blur-[100px] dark:bg-brand-500/5" />
 
       <div className="mx-auto max-w-7xl">
-        <div className="mb-6">
-          <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-sky-600">
-            PROGRAMS
-          </h1>
+        <div className="mb-2">
+          <div className="mx-auto max-w-3xl text-center">
+            <h1 className="font-display text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-brand-900 uppercase">
+              PROGRAMS
+            </h1>
+          </div>
         </div>
 
         <SectionHeader
