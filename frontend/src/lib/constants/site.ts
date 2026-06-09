@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Versuzo",
   domain: "versuzo.in",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  apiUrl: process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://versuzo.in",
+  apiUrl: process.env.NEXT_PUBLIC_API_URL || "https://versuzo-in-backend.vercel.app",
   description:
     "Versuzo - Transforming Talent into Opportunity and Success through cohort-based learning, mentorship, and real-world projects.",
   supportEmail: "support@versuzo.com",

@@ -22,7 +22,7 @@ export default function Error({
       <p className="mt-2 max-w-md text-brand-700/80 dark:text-brand-200/80">
         Make sure the backend API is running at{" "}
         <code className="rounded bg-brand-50 px-1 dark:bg-brand-900">
-          {process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:4000"}
+          {process.env.NEXT_PUBLIC_API_URL || "https://versuzo-in-backend.vercel.app"}
         </code>
       </p>
       <div className="mt-6">
