@@ -63,6 +63,9 @@ export const metadata: Metadata = {
     title: "Versuzo | Transforming Talent into Opportunity and Success",
     description: siteConfig.description,
   },
+  verification: {
+    google: "CuF2stqNwc0vkGwKKTXD8vcF8PcwOhVaRFBnjIuJHwk",
+  },
   robots: {
     index: true,
     follow: true,
