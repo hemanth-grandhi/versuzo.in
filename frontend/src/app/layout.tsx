@@ -101,8 +101,14 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/images/versuzo-logo.png",
-    apple: "/images/versuzo-logo.png",
+    // Primary favicon files (place these files in frontend/public)
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico", sizes: "64x64 32x32 24x24 16x16", type: "image/x-icon" },
+    ],
+    apple: "/apple-touch-icon.png",
+    other: [{ rel: "manifest", url: "/manifest.json" }],
   },
 };
 
