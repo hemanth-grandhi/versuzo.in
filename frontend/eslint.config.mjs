@@ -5,6 +5,7 @@ const eslintConfig = [
   {
     ignores: [".next/**", "node_modules/**", "dist/**"],
   },
+  // Keep a minimal flat config; Next.js detection is handled via .eslintrc.cjs
   {
     files: ["src/**/*.{ts,tsx}"],
     languageOptions: {
