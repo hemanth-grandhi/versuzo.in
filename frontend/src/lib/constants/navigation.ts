@@ -4,18 +4,18 @@
  */
 
 export const navLinks = [
-  { href: "#", label: "Home" },
-  { href: "#our-programs", label: "Programs" },
-  { href: "#about", label: "About Us" },
-  { href: "#why", label: "Why Us" },
-  { href: "#cta", label: "Contact Us" },
+  { href: "/", label: "Home" },
+  { href: "/programs", label: "Programs" },
+  { href: "/about-us", label: "About Us" },
+  { href: "/why-us", label: "Why Us" },
+  { href: "/contact-us", label: "Contact Us" },
 ] as const;
 
 export const footerLinks = {
   company: [
     { href: "/", label: "Home" },
-    { href: "/#about", label: "About Us" },
-    { href: "/#our-programs", label: "Programs" },
+    { href: "/about-us", label: "About Us" },
+    { href: "/programs", label: "Programs" },
     { href: "/contact-us", label: "Contact Us" },
   ],
   legal: [

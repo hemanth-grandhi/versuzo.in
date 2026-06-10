@@ -45,8 +45,8 @@ export function Header() {
 
         <div className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => {
-            const isProgramsActive = link.label === "Programs" && pathname.startsWith("/courses/");
-            const href = isHomePage ? link.href : `/${link.href}`;
+            const isProgramsActive = link.label === "Programs" && (pathname.startsWith("/courses/") || pathname.startsWith("/programs"));
+            const href = link.href;
             return (
               <Link
                 key={link.href}
@@ -138,8 +138,8 @@ export function Header() {
           >
             <div className="flex flex-col gap-1 px-4 py-4">
               {navLinks.map((link) => {
-                const isProgramsActive = link.label === "Programs" && pathname.startsWith("/courses/");
-                const href = isHomePage ? link.href : `/${link.href}`;
+                const isProgramsActive = link.label === "Programs" && (pathname.startsWith("/courses/") || pathname.startsWith("/programs"));
+                const href = link.href;
                 return (
                   <Link
                     key={link.href}

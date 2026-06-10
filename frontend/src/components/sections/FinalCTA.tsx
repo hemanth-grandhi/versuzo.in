@@ -30,7 +30,7 @@ export function FinalCTA() {
             </p>
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button
-                href="/#our-programs"
+                href="/programs"
                 variant="secondary"
                 className="!bg-white !from-white !to-white !text-brand-900 !shadow-brand hover:!bg-white/95"
               >

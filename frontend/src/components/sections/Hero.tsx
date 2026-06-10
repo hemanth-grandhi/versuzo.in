@@ -349,7 +349,7 @@ Thank you.`;
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button href="#our-programs" variant="primary">
+              <Button href="/programs" variant="primary">
                 Explore Programs
                 <ArrowRight className="h-4 w-4" />
               </Button>

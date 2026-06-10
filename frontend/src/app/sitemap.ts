@@ -5,6 +5,9 @@ import { siteConfig } from "@/lib/constants/site";
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
+    "/about-us",
+    "/programs",
+    "/why-us",
     "/contact-us",
     "/login",
     "/register",

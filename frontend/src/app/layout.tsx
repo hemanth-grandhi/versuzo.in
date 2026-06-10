@@ -7,6 +7,36 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
 
+const orgStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Versuzo",
+  url: siteConfig.siteUrl,
+  logo: `${siteConfig.siteUrl}/images/versuzo-logo.png`,
+  founder: {
+    "@type": "Person",
+    name: "Hemanth Grandhi",
+    jobTitle: "Founder",
+  },
+  member: [
+    {
+      "@type": "Person",
+      name: "Nishank Durgam",
+      jobTitle: "Chief Executive Officer",
+    },
+  ],
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: siteConfig.phoneDial,
+      contactType: "customer support",
+      email: siteConfig.supportEmail,
+      contactOption: "TollFree",
+    },
+  ],
+  sameAs: [siteConfig.instagramUrl, siteConfig.youtubeUrl],
+};
+
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-display",
@@ -86,6 +116,11 @@ export default function RootLayout({
       <body
         className={`${jakarta.variable} ${inter.variable} font-sans antialiased`}
       >
+        <script
+          type="application/ld+json"
+          // JSON-LD for Organization structured data
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgStructuredData) }}
+        />
         <ThemeProvider>
           <AuthProvider>
             <Header />

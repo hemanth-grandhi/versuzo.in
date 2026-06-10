@@ -110,7 +110,7 @@ export default function DashboardPage() {
                   Browse our portfolio of career accelerator programs to enroll, choose your timeline, and work on production capstones.
                 </p>
               </div>
-              <Button href="/#our-programs" variant="primary" className="!px-6 !py-2.5 text-xs">
+              <Button href="/programs" variant="primary" className="!px-6 !py-2.5 text-xs">
                 Explore Programs
               </Button>
             </div>
@@ -172,7 +172,7 @@ export default function DashboardPage() {
               <p className="text-xs text-brand-600 dark:text-brand-400 leading-relaxed">
                 Have questions about curriculum, timings, or payments? Schedule a free direct call with our academic team.
               </p>
-              <Button href="/#cta" variant="outline" className="w-full text-xs !py-2 mt-2">
+              <Button href="/contact-us" variant="outline" className="w-full text-xs !py-2 mt-2">
                 Book a Consultation
               </Button>
             </div>
